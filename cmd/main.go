@@ -16,7 +16,7 @@ func main() {
 	debt := debts.NewDebts(db)
 
 	debt.Add(debts.Debtor {
-		DebtorName: "nicolas.walter",
+		DebtorName: "gabriel.rios",
 	})
 
 	debtors := debt.Get()
